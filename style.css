@@ -1,13 +1,69 @@
 /* CSS stylesheet for the portfolio website */
 
-body{
-    background-color: black;
+/* seset default margin and padding */
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
 }
 
-h1{
+/* video background section */
+.video-background {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* fullscreen background video */
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* background overlay */ 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* adjusts transparency */
+    z-index: 0;
+  }
+
+/* content styling */
+.content {
+    position: relative;
+    z-index: 1;
     color: white;
+    text-align: center;
+    padding-top: 10vh;
+    font-family: Arial, sans-serif;
+    font-size: 200%;
+
 }
 
-p{
+.content h1 {
+    font-size: 300%;
+}
+
+.vertical-links {
+    list-style: none;
+    padding: 0;
+}
+
+.vertical-links li {
+    margin: 16px 0;    /* adds spacing between items */
+}
+
+.vertical-links a {
+    text-decoration: none;
     color: white;
 }
