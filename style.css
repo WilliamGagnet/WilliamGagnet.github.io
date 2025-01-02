@@ -5,20 +5,20 @@ body, html{
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden;
+    overflow: auto;
 }
 
 /* video background section */
 .video-background {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
-    overflow: hidden;
+    overflow: auto;
 }
 
 /* fullscreen background video */
 .bg-video {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -47,7 +47,7 @@ body, html{
     padding-top: 10vh;
     font-family: Arial, sans-serif;
     font-size: 200%;
-
+    text-shadow: 0px 0px 10px lightgoldenrodyellow;
 }
 
 .content h1 {
@@ -66,4 +66,8 @@ body, html{
 .vertical-links a {
     text-decoration: none;
     color: white;
+}
+
+.vertical-links a:hover{
+    font-size: 125%;
 }
