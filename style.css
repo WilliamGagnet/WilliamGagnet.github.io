@@ -81,7 +81,6 @@ body, html{
 .navbar-ul {
     margin: 0;
     padding: 0;
-    z-index: 1;
     overflow: hidden;
     list-style: none;
     background-color: rgba(0, 0, 0, .95);
@@ -102,4 +101,45 @@ body, html{
 
 .navbar-ul li a:hover{
     background-color: rgba(255, 255, 255, .1);
+}
+
+footer {
+    color: white;
+    position: sticky;
+    bottom: 0;
+    z-index: 2;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 1;
+    list-style: none;
+    background-color: rgba(0, 0, 0, .95);
+}
+
+footer li {
+    float: left;
+}
+
+footer li a {
+    display: block;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+footer li a:hover{
+    background-color: rgba(255, 255, 255, .1);
+}
+
+footer p {
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;   /* Reset any extra margin */
+    padding: 14px 16px;
 }
