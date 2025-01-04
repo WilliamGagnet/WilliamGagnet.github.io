@@ -72,6 +72,7 @@ body, html{
     font-size: 125%;
 }
 
+/* navigation bar styling */
 .navbar {
     position: sticky;
     top: 0;
@@ -83,7 +84,7 @@ body, html{
     padding: 0;
     overflow: hidden;
     list-style: none;
-    background-color: rgba(0, 0, 0, .95);
+    background-color: rgba(0, 0, 0, .9);
 }
 
 .navbar-ul li {
@@ -103,6 +104,7 @@ body, html{
     background-color: rgba(255, 255, 255, .1);
 }
 
+/* footer styling */
 footer {
     color: white;
     position: sticky;
@@ -116,7 +118,7 @@ footer ul {
     overflow: hidden;
     z-index: 1;
     list-style: none;
-    background-color: rgba(0, 0, 0, .95);
+    background-color: rgba(0, 0, 0, .9);
 }
 
 footer li {
