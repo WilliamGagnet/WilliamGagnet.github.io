@@ -7,8 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- background -->
+    <div>
+        <!-- background video -->
+        <video autoplay loop muted playsinline class="bg-video">
+            <source src="background-video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+        <!-- background overlay -->
+        <div class="overlay"></div>
+     </div>
+
     <!-- navigation bar -->
-    <header class="navbar">
+    <header>
         <ul class="navbar-ul">
             <li><a href="index.html">Home</a></li>
             <li><a href="skills-and-projects.html">Skills and Projects</a></li>
@@ -18,21 +30,12 @@
         </ul>
     </header>
 
-    <section class="video-background">
-        <!-- background video -->
-        <video autoplay loop muted playsinline class="bg-video">
-            <source src="background-video1.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        
-        <!-- background overlay -->
-        <div class="overlay"></div>
+    <!-- page content -->
+    <main class="content">
+        <p>Resume</p>
+    </main>
 
-        <!-- page content -->
-        <main class="content">
-            <p>Resume</p>
-        </main>
-    </section>
+    <!-- footer bar-->
     <footer>
         <ul>
             <li><a href="https://github.com/WilliamGagnet" target="_blank">GitHub</a></li>

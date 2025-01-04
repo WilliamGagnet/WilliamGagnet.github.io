@@ -1,25 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home - William Gagnet Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <section class="video-background">
-            <!-- background video -->
-            <video autoplay loop muted playsinline class="bg-video">
-                <source src="background-video1.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            
-            <!-- background overlay -->
-            <div class="overlay"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - William Gagnet Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- background -->
+    <div>
+        <!-- background video -->
+        <video autoplay loop muted playsinline class="bg-video">
+            <source src="background-video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+        <!-- background overlay -->
+        <div class="overlay"></div>
+     </div>
 
-            <!-- page content -->
-            <main class="content">
-                <h1>William Gagnet Portfolio Website</h1>
+    <!-- navigation bar -->
+    <header>
+        <ul class="navbar-ul">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills-and-projects.html">Skills and Projects</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="about-me.html">About Me</a></li>
+        </ul>
+    </header>
+
+    <!-- page content -->
+    <main class="content">
+        <h1>William Gagnet Portfolio Website</h1>
                 <p>Select one of the options below to learn more!</p>
                 <ul class="vertical-links">
                     <li><a href="skills-and-projects.html">Skills and Projects</a></li>
@@ -27,15 +40,16 @@
                     <li><a href="resume.html">Resume</a></li>
                     <li><a href="about-me.html">About Me</a></li>
                 </ul>
-            </main>
-        </section>
-        <footer>
-            <ul>
-                <li><a href="https://github.com/WilliamGagnet" target="_blank">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/william-gagnet-6b3944302/" target="_blank">LinkedIn</a></li>
-                <li><a href="mailto:wgagnet2@gmail.com">Email: wgagnet2@gmail.com</a></li>
-                <li><p>&copy; 2025 William Gagnet. All rights reserved.</p></li>
-            </ul>
-        </footer>
-    </body>
+    </main>
+
+    <!-- footer bar-->
+    <footer>
+        <ul>
+            <li><a href="https://github.com/WilliamGagnet" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/william-gagnet-6b3944302/" target="_blank">LinkedIn</a></li>
+            <li><a href="mailto:wgagnet2@gmail.com">Email: wgagnet2@gmail.com</a></li>
+            <li><p>&copy; 2025 William Gagnet. All rights reserved.</p></li>
+        </ul>
+    </footer>
+</body>
 </html>
