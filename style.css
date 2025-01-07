@@ -1,7 +1,13 @@
 /* CSS stylesheet for the portfolio website */
 
-body{
+html, body{
+    height: 100%;
     margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 /* background video */
@@ -28,6 +34,7 @@ body{
 
 /* content styling */
 main {
+    flex: 1;
     margin: 8px;
     position: relative;
     z-index: 1;
@@ -97,7 +104,7 @@ header ul li a:hover{
 /* footer styling */
 footer {
     color: white;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     width: 100%;
     z-index: 2;
