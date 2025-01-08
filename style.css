@@ -10,6 +10,10 @@ body {
     flex-direction: column;
 }
 
+#index-body {
+    overflow: hidden;
+}
+
 /* background video */
 .bg-video {
     z-index: -10;
@@ -43,29 +47,13 @@ main {
     padding-top: 10vh;
     font-family: Arial, sans-serif;
     font-size: 200%;
-    text-shadow: 0px 0px 10px lightgoldenrodyellow;
+    text-shadow: 0px 0px 15px lightgoldenrodyellow;
+    padding: 0px 0px;
+    margin: 0;
 }
 
 main h1 {
-    font-size: 300%;
-}
-
-.vertical-links {
-    list-style: none;
-    padding: 0;
-}
-
-.vertical-links li {
-    margin: 16px 0;    /* adds spacing between items */
-}
-
-.vertical-links a {
-    text-decoration: none;
-    color: white;
-}
-
-.vertical-links a:hover{
-    font-size: 125%;
+    font-size: 200%;
 }
 
 /* navigation bar styling */
@@ -84,7 +72,7 @@ header ul{
     background-color: rgba(0, 0, 0, .9);
 }
 
- header ul li {
+header ul li {
     float: left;
 }
 
@@ -142,4 +130,26 @@ footer p {
     text-align: center;
     margin: 0;   /* Reset any extra margin */
     padding: 14px 16px;
+}
+
+#index-footer {
+    position: fixed;
+    bottom: 0;
+}
+
+#bouncer {
+    position: absolute;
+    padding: 0px 0px;
+    margin: 0;
+    overflow: hidden;
+}
+
+#bouncer h1{
+    padding: 0px 0px;
+    margin: 0;
+}
+
+#bouncer p {
+    padding: 0px 0px;
+    margin: 0;
 }
