@@ -45,7 +45,7 @@ main {
     color: white;
     text-align: center;
     padding-top: 10vh;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-size: 200%;
     text-shadow: 0px 0px 15px lightgoldenrodyellow;
     padding: 0px 0px;
@@ -54,6 +54,7 @@ main {
 
 main h1 {
     font-size: 200%;
+    font-family: "Poppins", serif;
 }
 
 /* navigation bar styling */
@@ -79,7 +80,7 @@ header ul li {
 header ul li a {
     display: block;
     color: white;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -114,7 +115,7 @@ footer li {
 footer li a {
     display: block;
     color: white;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -126,7 +127,7 @@ footer li a:hover{
 
 footer p {
     color: white;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     text-align: center;
     margin: 0;   /* Reset any extra margin */
     padding: 14px 16px;
