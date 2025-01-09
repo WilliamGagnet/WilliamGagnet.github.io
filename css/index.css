@@ -1,4 +1,4 @@
-/* CSS stylesheet for the portfolio website */
+/* CSS stylesheet for index.html */
 
 html, body{
     height: 100%;
@@ -8,6 +8,7 @@ html, body{
 body {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 /* background video */
@@ -32,7 +33,7 @@ body {
     height: 100%;
   }
 
-/* content styling */
+  /* content styling */
 main {
     flex: 1;
     margin: 8px;
@@ -40,32 +41,9 @@ main {
     z-index: 1;
     color: white;
     text-align: center;
+    padding-top: 5vh;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
-}
-
-main h1 {
-    font-size: 200%;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-}
-
-main p {
-    font-family: "Cardo", serif;
-    font-size: 125%;
-}
-
-/* styling for the heading of the content, contains page title and description */
-.main-section {
-    background-color: rgba(0, 0, 0, .9);
-    border: 2px solid rgba(0, 0, 0, .9);
-    border-radius: 10px; 
-    box-shadow: 0px 0px 15px white;
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    padding: .5%;
 }
 
 /* navigation bar styling */
@@ -105,7 +83,7 @@ header ul li a:hover{
 /* footer styling */
 footer {
     color: white;
-    position: sticky;
+    position: fixed;
     bottom: 0;
     width: 100%;
     z-index: 2;
@@ -145,4 +123,31 @@ footer p {
     text-align: center;
     margin: 0;   /* Reset any extra margin */
     padding: 14px 16px;
+}
+
+#bouncer {
+    position: absolute;
+    padding: 0px 0px;
+    margin: 0;
+    overflow: hidden;
+    width: 600px;
+    text-shadow: 0px 0px 15px white;
+}
+
+#bouncer h1{
+    padding: 0px 0px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 400%;
+    line-height: 1;
+}
+
+#bouncer p {
+    padding: 0px 0px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 200%;
+    line-height: 1;
 }
