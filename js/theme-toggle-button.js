@@ -15,7 +15,7 @@ button.addEventListener("click", function() {
         document.getElementById("overlay").style.background = "rgba(0, 0, 0, 0)";
 
         // main
-        document.getElementById("bouncer").style.color = "black";
+        document.getElementById("main").style.color = "black";
     }
 
     // light mode -> auto mode
@@ -35,7 +35,7 @@ button.addEventListener("click", function() {
             document.getElementById("overlay").style.background = "rgba(0, 0, 0, 0)";
 
             // main
-            document.getElementById("bouncer").style.color = "black";
+            document.getElementById("main").style.color = "black";
 
         // Nighttime (6 PM - 6 AM)
         } else {
@@ -46,7 +46,7 @@ button.addEventListener("click", function() {
             document.getElementById("overlay").style.background = "rgba(0, 0, 0, 0.5)";
 
             // main
-            document.getElementById("bouncer").style.color = "white";
+            document.getElementById("main").style.color = "white";
         }
     }
 
@@ -62,7 +62,7 @@ button.addEventListener("click", function() {
         document.getElementById("overlay").style.background = "rgba(0, 0, 0, 0.5)";
 
         // main
-        document.getElementById("bouncer").style.color = "white";
+        document.getElementById("main").style.color = "white";
     }
 
     // loads new video background

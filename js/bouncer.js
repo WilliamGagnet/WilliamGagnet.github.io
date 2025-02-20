@@ -8,7 +8,7 @@ console.log("Speed:", speed);
 let dx = speed;  // Horizontal speed (positive for rightward movement)
 let dy = speed;  // Vertical speed (positive for downward movement)
 
-const bouncer = document.getElementById("bouncer");
+const bouncer = document.getElementById("main");
 
 function animate() {
   const viewportWidth = window.innerWidth;

@@ -34,7 +34,7 @@ body {
   }
 
   /* content styling */
-main {
+  main {
     flex: 1;
     margin: 8px;
     position: relative;
@@ -44,6 +44,31 @@ main {
     padding-top: 5vh;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
+    
+    /* Previously in #bouncer */
+    position: absolute;
+    padding: 0;
+    overflow: hidden;
+    width: 600px;
+    text-shadow: 0px 0px 15px white;
+}
+
+main h1 {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 400%;
+    line-height: 1;
+}
+
+main p {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 200%;
+    line-height: 1;
 }
 
 /* navigation bar styling */
@@ -141,31 +166,4 @@ footer p {
     text-align: center;
     margin: 0;   /* Reset any extra margin */
     padding: 14px 16px;
-}
-
-#bouncer {
-    position: absolute;
-    padding: 0px 0px;
-    margin: 0;
-    overflow: hidden;
-    width: 600px;
-    text-shadow: 0px 0px 15px white;
-}
-
-#bouncer h1{
-    padding: 0px 0px;
-    margin: 0;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-size: 400%;
-    line-height: 1;
-}
-
-#bouncer p {
-    padding: 0px 0px;
-    margin: 0;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-size: 200%;
-    line-height: 1;
 }
