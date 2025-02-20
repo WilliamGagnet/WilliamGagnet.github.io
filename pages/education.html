@@ -26,13 +26,13 @@
     <!-- background -->
     <div>
         <!-- background video -->
-        <video autoplay loop muted playsinline class="bg-video">
-            <source src="../assets/videos/background-video1.mp4" type="video/mp4">
+        <video autoplay loop muted playsinline class="bg-video" id="backgroundVideo">
+            <source src="../assets/videos/coverr-lights-swaying-in-the-evening-breeze-5160-1080p.mp4" type="video/mp4" id="videoSource">
             Your browser does not support the video tag.
         </video>
         
         <!-- background overlay -->
-        <div class="overlay"></div>
+        <div class="overlay" id="overlay"></div>
      </div>
 
     <!-- navigation bar -->
@@ -43,11 +43,12 @@
             <li><a href="education.html"><i class="fa-solid fa-school"></i> Education</a></li>
             <li><a href="resume.html"><i class="fa-solid fa-address-card"></i> Resume</a></li>
             <li><a href="about-me.html"><i class="fa-solid fa-user"></i> About Me</a></li>
+            <li><button id="theme-toggle-button"><i class="fa-solid fa-moon"></i> Dark</button></li>
         </ul>
     </header>
 
     <!-- page content -->
-    <main>
+    <main id="main">
         <p>Education</p>
     </main>
 
@@ -60,5 +61,9 @@
             <li><p>&copy; 2025 William Gagnet. All rights reserved.</p></li>
         </ul>
     </footer>
+
+    <!-- JavaScript links -->
+    <script src="../js/theme-toggle-button.js"></script>
+    
 </body>
 </html>

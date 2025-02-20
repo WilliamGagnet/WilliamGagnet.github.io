@@ -102,6 +102,23 @@ header ul li a:hover{
     background-color: rgba(255, 255, 255, .1);
 }
 
+/* header theme select styling */
+header ul li button {
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 17px 16px;
+    text-decoration: none;
+    border: 0px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+header ul li button:hover {
+    background-color: rgba(255, 255, 255, .1);
+}
+
 /* footer styling */
 footer {
     color: white;

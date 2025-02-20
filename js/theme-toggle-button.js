@@ -9,7 +9,12 @@ button.addEventListener("click", function() {
         button.innerHTML = '<i class="fa-solid fa-sun"></i> Light';
 
         // video background
-        sourceElement.src = "assets/videos/coverr-cloudy-sky-2765-1080p.mp4"
+        if (document.title.includes("Home")) {
+            sourceElement.src = "assets/videos/coverr-cloudy-sky-2765-1080p.mp4"
+        }
+        else {
+            sourceElement.src = "../assets/videos/coverr-cloudy-sky-2765-1080p.mp4"
+        }
 
         // overlay
         document.getElementById("overlay").style.background = "rgba(0, 0, 0, 0)";
@@ -29,7 +34,12 @@ button.addEventListener("click", function() {
         // Daytime (6 AM - 6 PM)
         if (currentHour >= 6 && currentHour < 18) {
             // video background
-            sourceElement.src = "assets/videos/coverr-cloudy-sky-2765-1080p.mp4";
+            if (document.title.includes("Home")) {
+                sourceElement.src = "assets/videos/coverr-cloudy-sky-2765-1080p.mp4"
+            }
+            else {
+                sourceElement.src = "../assets/videos/coverr-cloudy-sky-2765-1080p.mp4"
+            }
 
             // overlay
             document.getElementById("overlay").style.background = "rgba(0, 0, 0, 0)";
@@ -40,7 +50,12 @@ button.addEventListener("click", function() {
         // Nighttime (6 PM - 6 AM)
         } else {
             // video background
-            sourceElement.src = "assets/videos/coverr-lights-swaying-in-the-evening-breeze-5160-1080p.mp4";
+            if (document.title.includes("Home")) {
+                sourceElement.src = "assets/videos/coverr-lights-swaying-in-the-evening-breeze-5160-1080p.mp4"
+            }
+            else {
+                sourceElement.src = "../assets/videos/coverr-lights-swaying-in-the-evening-breeze-5160-1080p.mp4"
+            }
 
             // overlay
             document.getElementById("overlay").style.background = "rgba(0, 0, 0, 0.5)";
@@ -56,7 +71,12 @@ button.addEventListener("click", function() {
         button.innerHTML = '<i class="fa-solid fa-moon"></i> Dark';
 
         // video background
-        sourceElement.src = "assets/videos/coverr-lights-swaying-in-the-evening-breeze-5160-1080p.mp4"
+        if (document.title.includes("Home")) {
+            sourceElement.src = "assets/videos/coverr-lights-swaying-in-the-evening-breeze-5160-1080p.mp4"
+        }
+        else {
+            sourceElement.src = "../assets/videos/coverr-lights-swaying-in-the-evening-breeze-5160-1080p.mp4"
+        }
 
         // overlay
         document.getElementById("overlay").style.background = "rgba(0, 0, 0, 0.5)";
