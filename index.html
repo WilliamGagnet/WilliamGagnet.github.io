@@ -26,24 +26,24 @@
     <!-- background -->
     <div>
         <!-- background video -->
-        <video autoplay loop muted playsinline class="bg-video">
-            <source src="assets/videos/coverr-cloudy-sky-2765-1080p.mp4" type="video/mp4">
+        <video autoplay loop muted playsinline class="bg-video" id="backgroundVideo">
+            <source src="assets/videos/coverr-lights-swaying-in-the-evening-breeze-5160-1080p.mp4" type="video/mp4" id="videoSource">
             Your browser does not support the video tag.
         </video>
         
         <!-- background overlay -->
-        <div class="overlay"></div>
+        <div class="overlay" id="overlay"></div>
      </div>
 
     <!-- navigation bar -->
     <header>
-        <ul class="navbar-ul">
+        <ul class="navbar-ul" id="header-ul">
             <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
             <li><a href="pages/skills-and-projects.html"><i class="fa-solid fa-code"></i> Skills and Projects</a></li>
             <li><a href="pages/education.html"><i class="fa-solid fa-school"></i> Education</a></li>
             <li><a href="pages/resume.html"><i class="fa-solid fa-address-card"></i> Resume</a></li>
             <li><a href="pages/about-me.html"><i class="fa-solid fa-user"></i> About Me</a></li>
-            <li><button id="theme-toggle-button"><i class="fa-solid fa-sun"></i> Light</button></li>
+            <li><button id="theme-toggle-button"><i class="fa-solid fa-moon"></i> Dark</button></li>
         </ul>
     </header>
 
@@ -63,9 +63,8 @@
         </ul>
     </footer>
 
-    <!-- script for the javascript bouncer -->
+    <!-- JavaScript links -->
     <script src="js/bouncer.js"></script>
-
     <script src="js\theme-toggle-button.js"></script>
 
 </body>

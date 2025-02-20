@@ -80,6 +80,7 @@ header ul li a:hover {
     background-color: rgba(255, 255, 255, .1);
 }
 
+/* header theme select styling */
 header ul li button {
     display: block;
     font-family: "Poppins", sans-serif;
