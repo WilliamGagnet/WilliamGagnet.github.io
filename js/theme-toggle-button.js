@@ -21,6 +21,15 @@ button.addEventListener("click", function() {
 
         // main
         document.getElementById("main").style.color = "black";
+
+        // main-section
+        if (!document.title.includes("Home")) {
+            document.querySelectorAll(".main-section").forEach((element) => {
+                element.style.backgroundColor = "rgba(255, 255, 255, 0.8)";
+                element.style.border = "2px solid rgba(255, 255, 255, 0.8)";
+                element.style.boxShadow = "0px 0px 15px black";
+            });
+        }
     }
 
     // light mode -> auto mode
@@ -47,6 +56,15 @@ button.addEventListener("click", function() {
             // main
             document.getElementById("main").style.color = "black";
 
+            // main-section
+            if (!document.title.includes("Home")) {
+                document.querySelectorAll(".main-section").forEach((element) => {
+                    element.style.backgroundColor = "rgba(255, 255, 255, 0.8)";
+                    element.style.border = "2px solid rgba(255, 255, 255, 0.8)";
+                    element.style.boxShadow = "0px 0px 15px black";
+                });
+            }
+
         // Nighttime (6 PM - 6 AM)
         } else {
             // video background
@@ -62,6 +80,15 @@ button.addEventListener("click", function() {
 
             // main
             document.getElementById("main").style.color = "white";
+
+            // main-section
+            if (!document.title.includes("Home")) {
+                document.querySelectorAll(".main-section").forEach((element) => {
+                    element.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
+                    element.style.border = "2px solid rgba(0, 0, 0, 0.9)";
+                    element.style.boxShadow = "0px 0px 15px white";
+                });
+            }
         }
     }
 
@@ -83,6 +110,15 @@ button.addEventListener("click", function() {
 
         // main
         document.getElementById("main").style.color = "white";
+
+        // main-section
+        if (!document.title.includes("Home")) {
+            document.querySelectorAll(".main-section").forEach((element) => {
+                element.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
+                element.style.border = "2px solid rgba(0, 0, 0, 0.9)";
+                element.style.boxShadow = "0px 0px 15px white";
+            });
+        }
     }
 
     // loads new video background
