@@ -1,8 +1,9 @@
 /* CSS stylesheet for the portfolio website */
 
 html, body{
-    height: 100%;
     margin: 0;
+    height: auto;
+    overflow: visible;
 }
 
 body {
