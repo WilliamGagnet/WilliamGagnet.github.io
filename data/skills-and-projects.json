@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Portfolio Website",
+      "description": "The elegant website you are currently looking at! A static website hosted with github and used to showcase myself and my relevant skills.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "githubLink": "https://github.com/WilliamGagnet/WilliamGagnet.github.io",
+      "backgroundImage": "link to background image"
+    },
+    {
+      "title": "Blackjack",
+      "description": "Play blackjack in the terminal/cmd. Do you hit on 17?",
+      "technologies": ["Python"],
+      "githubLink": "https://github.com/WilliamGagnet/blackjack",
+      "backgroundImage": "link to background image"
+    }
+  ]
+  
