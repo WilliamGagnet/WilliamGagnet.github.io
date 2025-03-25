@@ -1,38 +1,59 @@
 function skillsAndProjects() {
-fetch('../data/skills-and-projects.json')
-    .then(response => response.json())
-    .then(data => {
-        const container = document.getElementById("main");
+    fetch('../data/skills-and-projects.json')
+        .then(response => response.json())
+        .then(data => {
+            const container = document.getElementById("main");
 
-        data.forEach(project => {
-            const card = document.createElement("div");
-            card.classList.add("main-section");
+            data.forEach(project => {
+                const card = document.createElement("div");
+                card.classList.add("main-section");
 
-            const title = document.createElement("h1");
-            title.textContent = project.title;
-            card.appendChild(title);
+                const image = document.createElement("img");
+                image.src = project.image;
+                card.appendChild(image);
 
-            const description = document.createElement("p");
-            description.textContent = project.description;
-            card.appendChild(description);
+                const projectDetails = document.createElement("div");
+                projectDetails.classList.add("project-details");
 
-            const technologies = document.createElement("p");
-            technologies.textContent = project.technologies.join(", ");
-            card.appendChild(technologies);
+                // Title
+                const title = document.createElement("h1");
+                title.textContent = project.title;
+                projectDetails.appendChild(title);
 
-            if (project.link) {
-                const link = document.createElement("a");
-                link.href = project.link;
-                link.target = "_blank";
-                link.textContent = "View Project";
-                card.appendChild(link);
-            }
+                // Create a <ul> for the description and technologies
+                const detailsList = document.createElement("ul");
 
-            container.appendChild(card);
-        });
-    })
-    .catch(error => console.error('Error loading JSON:', error));
+                // Description
+                const descriptionItem = document.createElement("li");
+                descriptionItem.textContent = project.description;
+                detailsList.appendChild(descriptionItem);
+
+                // Technologies
+                const technologiesItem = document.createElement("li");
+                technologiesItem.textContent = "Technologies: " + project.technologies.join(", ");
+                detailsList.appendChild(technologiesItem);
+
+                // Link
+                if (project.link) {
+                    const linkItem = document.createElement("li");
+                    const link = document.createElement("a");
+                    link.href = project.link;
+                    link.target = "_blank";
+                    link.innerHTML = '<i class="fa-brands fa-github"></i> View Project';
+                    linkItem.appendChild(link);
+                    detailsList.appendChild(linkItem);
+                }
+
+                // Append the <ul> to projectDetails
+                projectDetails.appendChild(detailsList);
+
+                card.appendChild(projectDetails);
+                container.appendChild(card);
+            });
+        })
+        .catch(error => console.error('Error loading JSON:', error));
 }
+
 
 if (window.location.pathname.includes('about-me.html')) {
     pass

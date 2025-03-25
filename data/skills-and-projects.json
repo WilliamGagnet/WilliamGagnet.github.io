@@ -4,14 +4,21 @@
       "description": "The elegant website you are currently looking at! A static website hosted with github and used to showcase myself and my relevant skills.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "link": "https://github.com/WilliamGagnet/WilliamGagnet.github.io",
-      "backgroundImage": "../assets/images/NaH_Id%27_win.webp"
+      "image": "../assets/images/cat_is_standing_in_colorful_lights_building_background_hd_cat.jpg"
+    },
+    {
+      "title": "Checkpoint",
+      "description": "A beautiful website to be presented at the elustrious 2025 Rhodes symposium. Its primary use to facilitate the reservation of school equipment. Collaborators: AJ, Son, Dimash, Enkhee, Jules.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Python", "Flask"],
+      "link": "https://github.com/Rhodes-CS-comp486/checkpoint-web",
+      "image": "../assets/images/images.jpg"
     },
     {
       "title": "Blackjack",
       "description": "Play blackjack in the terminal/cmd. Do you hit on 17?",
       "technologies": ["Python"],
       "link": "https://github.com/WilliamGagnet/blackjack",
-      "backgroundImage": "../assets/images/NaH_Id%27_win.webp"
+      "image": "../assets/images/eating-cat-suspicious.png"
     }
   ]
   

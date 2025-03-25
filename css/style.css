@@ -56,7 +56,7 @@ main p {
     font-size: 125%;
 }
 
-/* styling for the heading of the content, contains page title and description */
+/* styling for the cards containing the main content of the page */
 .main-section {
     background-color: rgba(0, 0, 0, .9);
     border: 2px solid rgba(0, 0, 0, .9);
@@ -67,6 +67,40 @@ main p {
     margin-top: 2.5%;
     margin-bottom: 2.5%;
     padding: .5%;
+
+    display: flex;
+    align-items: center;
+}
+
+.main-section img {
+    border-radius: 10px;
+    width: 33%; /* Takes up 33% of the card */
+    height: auto;
+    object-fit: cover;
+}
+
+.project-details {
+    width: 66%; /* Takes up 66% of the card */
+    padding-left: 15px;
+    text-align: left;
+    margin: 0;
+}
+
+.project-details ul li {
+    color: white;
+    font-family: "Cardo", serif;
+    font-size: 125%;
+    margin-bottom: 10px;
+}
+
+.project-details ul li a {
+    color: white;
+    font-family: "Cardo", serif;
+    text-decoration: none;
+}
+
+.project-details a:hover {
+    text-decoration: underline;
 }
 
 /* navigation bar styling */
