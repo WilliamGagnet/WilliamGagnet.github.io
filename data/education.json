@@ -1,12 +1,32 @@
 [
     {
-        "word1": "take",
-        "word2": "it",
-        "word3": "easy"
+        "name": "Rhodes College",
+        "degree": "Bachelor of Science in Computer Science",
+        "timeframe": "August 2021 - May 2025",
+        "description": "description",
+        "links": [
+            {
+                "url": "rhodes-classes.html",
+                "text": "Computer Science classes I have taken at Rhodes College"
+            },
+            {
+                "url": "https://www.rhodes.edu/",
+                "text": "Rhodes College Website"
+            }            
+        ],
+        "image": "../assets/images/rhodes_logo_2.png"
     },
     {
-        "word4": "i",
-        "word5": "love",
-        "word6": "you"
+        "name": "Jesuit High School",
+        "degree": "High School Diploma",
+        "timeframe": "August 2017 - May 2021",
+        "description": "description",
+        "links": [
+            {
+                "url": "https://www.jesuitnola.org/",
+                "text": "Jesuit High School Website"
+            }
+        ],
+        "image": "../assets/images/jesuit_logo_2.png"
     }
 ]
