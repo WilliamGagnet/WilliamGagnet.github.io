@@ -87,14 +87,12 @@ main p {
 }
 
 .project-details ul li {
-    color: white;
     font-family: "Cardo", serif;
     font-size: 125%;
     margin-bottom: 10px;
 }
 
 .project-details ul li a {
-    color: white;
     font-family: "Cardo", serif;
     text-decoration: none;
 }
