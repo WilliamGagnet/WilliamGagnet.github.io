@@ -28,7 +28,7 @@ function education() {
                 degreeItem.textContent = item.degree;
                 detailsList.appendChild(degreeItem);
 
-                // Degree
+                // Time Frame
                 const timeframeItem = document.createElement("li");
                 timeframeItem.textContent = item.timeframe;
                 detailsList.appendChild(timeframeItem);
@@ -63,6 +63,75 @@ function education() {
             });
         })
         .catch(error => console.error('Error loading JSON:', error));
+}
+
+function rhodesClasses() {
+    fetch('../data/rhodes-classes.json')
+        .then(response => response.json())
+        .then(data => {
+            const container = document.getElementById("main");
+
+            data.forEach(item => {
+                const card = document.createElement("div");
+                card.classList.add("main-section");
+
+                const cardDetails = document.createElement("div");
+                cardDetails.classList.add("card-details");
+                cardDetails.style.width = `100%`;
+
+                // Class Name
+                const nameItem = document.createElement("h1");
+
+                // Tag <span>
+                const tagSpan = document.createElement("span");
+                tagSpan.classList.add("tag");
+                tagSpan.textContent = item.tag;
+                tagColorChange(tagSpan)
+                
+                nameItem.appendChild(tagSpan);
+                nameItem.appendChild(document.createTextNode(" " + item.name));
+                cardDetails.appendChild(nameItem);
+
+                // Create a <ul> for the description and links
+                const detailsList = document.createElement("ul");
+
+                // Semester
+                const semesterItem = document.createElement("li");
+                semesterItem.innerHTML = "Semester: " + item.semester;
+                detailsList.appendChild(semesterItem);
+
+                // Description
+                const descriptionItem = document.createElement("li");
+                descriptionItem.textContent = item.description;
+                detailsList.appendChild(descriptionItem);
+
+                // Append the <ul> to cardDetails
+                cardDetails.appendChild(detailsList);
+
+                card.appendChild(cardDetails);
+                container.appendChild(card);
+            });
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+}
+
+function tagColorChange(tagElement) {
+    // Define color mappings for categories
+    const categoryColors = {
+        "Systems": "#ff5733", // Red-Orange
+        "Theory/Math": "#3498db", // Blue
+        "Graphics": "#2ecc71", // Green
+        "Basics": "#f1c40f", // Yellow
+        "Misc": "#9b59b6" // Purple
+    };
+
+    // Apply styles to each tag based on its category
+    const category = tagElement.textContent.trim();
+
+    if (categoryColors[category]) {
+        tagElement.style.borderColor = categoryColors[category];
+        tagElement.style.color = categoryColors[category];
+    }
 }
 
 function skillsAndProjects() {
@@ -131,7 +200,7 @@ else if (window.location.pathname.includes('resume.html')) {
     pass
 }
 else if (window.location.pathname.includes('rhodes-classes.html')) {
-    pass
+    rhodesClasses()
 }
 else if (window.location.pathname.includes('skills-and-projects.html')) {
     skillsAndProjects()
