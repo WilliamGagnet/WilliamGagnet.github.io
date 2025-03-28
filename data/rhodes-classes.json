@@ -1,0 +1,110 @@
+[
+    {
+        "name":"Comp 486 - Senior Seminar",
+        "semester":"Spring 2025",
+        "tag":"Misc",
+        "description":"Students embark on a semester long group project. Each team will produce a robust, scalable, and maintainable large-scale piece of software based on the project proposal completed in COMP 485. In addition to collaborating on a specific project, students present material on a wide range of software development topics, including software engineering, professional ethics, and current trends in languages, tools, and methodologies. As a senior seminar, the course has a strong problem-solving focus, encourages student participation and leadership, develops communication skills, and stresses integration of the student's full undergraduate experience."
+    },
+    {
+        "name":"Comp 375 - Machine Learning",
+        "semester":"Spring 2025",
+        "tag":"Misc",
+        "description":"Machine learning is the practice of programming computers to learn and improve through experience, and is becoming pervasive in science and technology. This course will cover the mathematical underpinnings, algorithms, and practices that enable a computer to learn. Topics will include supervised learning, unsupervised learning, and the evaluation of learning algorithms. Students will write computer programs and apply course skills to solve real-world prediction and pattern recognition problems."
+    },
+    {
+        "name":"Data 242 - Program Design & Data Structures for Data Analytics",
+        "semester":"Spring 2025",
+        "tag":"Misc",
+        "description":"This course will look at data structures and their associated algorithms applied to computational problems. Topics include data structures and algorithms; abstraction; time and memory complexity; recursion; dynamic memory structures; sorting and searching; advanced programming and problem-solving strategies; efficient software library use."
+    },
+    {
+        "name": "Comp 485 - Senior Software Engineering",
+        "semester": "Fall 2024",
+        "tag": "Misc",
+        "description": "The software systems we often find the most useful and magical are also the largest and most complex to build and understand. In order for these systems to be reliable, maintainable, and secure, they must be built according to disciplined and well-founded methods. This course examines these methodsboth in the large (defining requirements, system design, architecture patterns, software process, etc.) and in the small (version control, testing, benchmarking, code review, etc.). At the same time, students will engage in the construction of a large software system or feature."
+    },
+    {
+        "name":"Comp 325 - Graphics/VE/HC Interaction",
+        "semester":"Fall 2024",
+        "tag":"Graphics",
+        "description":"An introduction to the basics of 3D computer graphics, virtual environments (VEs), and human-computer interaction (HCI). Fundamental graphics topics include ray-tracing, 3D modeling, animation, lighting, rendering, cameras, and more.  Topics will also include how to interact with and experience a 3D model using the input and output devices that are typically found in a VE system (like the Oculus Rift).  This project-based course will focus on using hardware and creating software for VE applications with fundamental HCI principles in mind."
+    },
+    {
+        "name":"Math 122 - Integral Calculus",
+        "semester":"Fall 2024",
+        "tag":"Theory/Math",
+        "description":"Topics include the definite and indefinite integral, the Fundamental Theorem of Calculus, techniques of integration, and applications of integration."
+    },
+    {
+        "name":"Comp 322 - Computer Vision & Image Processing",
+        "semester":"Spring 2024",
+        "tag":"Graphics",
+        "description":"An introduction to computer vision, a discipline that develops methods to interpret and analyze images and videos. This course will focus heavily on computer vision as it relates to image processing, covering topics such as the characterization and representation of digital images, image enhancement, image restoration, image analysis, and image segmentation. This class will also highlight other classic computer vision topics such as object detection, three-dimensional reconstruction, and tracking and motion estimation. Students will also look at real world applications of these techniques including facial recognition, medical image analysis, robot navigation, and computational photography."
+    },
+    {
+        "name":"Comp 340 - Databases",
+        "semester":"Spring 2024",
+        "tag":"Misc",
+        "description":"An introduction to the design and use of database systems, as well as the key issues in building such systems. Topics include the relational model, logical database design, query languages, and database implementation issues such as storage and indexing, query processing and optimization, concurrency control, and transaction management. In addition to traditional database topics, this course provides an introduction to key technologies for managing and exchanging data on the World Wide Web."
+    },
+    {
+        "name":"Math 261 - Linear Algebra",
+        "semester":"Spring 2024",
+        "tag":"Theory/Math",
+        "description":"Topics include systems of linear equations, matrix algebra, determinants, real and complex vector spaces, linear transformations, eigenvalues and eigenvectors, and diagonalization. Attention is given to proofs."
+    },
+    {
+        "name":"Math 112 - Differential Calculus",
+        "semester":"Spring 2024",
+        "tag":"Theory/Math",
+        "description":"This course is an introduction to the concepts, formalism, and applications of functions, limits, and the derivative. Elementary transcendental functions are introduced and used throughout. Specific topics include functions, limits, the derivative, and applications of differentiation."
+    },
+    {
+        "name":"Comp 251 - Intro to Computer Systems",
+        "semester":"Fall 2023",
+        "tag":"Systems",
+        "description":"This course is an introduction to system-aware computer programming. Beginning with an overview of the fundamental elements and concepts that are common to all computer systems, including computer architecture, operating systems, compilers, and networks, students will learn how these affect the performance and behavior of computer programs. Additionally, students will learn a system-level programming language and set of tools for writing low-level programs at the operating system boundary. This course is an introduction to system-aware computer programming. Beginning with an overview of the fundamental elements and concepts that are common to all computer systems, including computer architecture, operating systems, compilers, and networks, students will learn how these affect the performance and behavior of computer programs. Additionally, students will learn a system-level programming language and set of tools for writing low-level programs at the operating system boundary."
+    },
+    {
+        "name":"Comp 355 - Advanced Algorithms",
+        "semester":"Fall 2023",
+        "tag":"Theory/Math",
+        "description":"An in-depth study of the design and analysis of advanced algorithms, including the performance tradeoffs and resources required by various algorithmic implementations. Major classes of computational problems will be identified and explored. Advanced data structures and approximation heuristics are introduced as required for solution design. Topics vary depending on the specific problems covered but will include the Master Theorem, dynamic programming, divide-and-conquer and greedy algorithms."
+    },
+    {
+        "name":"Math 211 - Applied Stats/Nat Sciences",
+        "semester":"Summer 2023",
+        "tag":"Theory/Math",
+        "description":"This course is modern introduction to statistical inference. Topics of the course relate to inferential techniques for one, two, and multiple samples. Both classical and resampling methods will be used. The course will also include the basic concepts of experimental design. A professional statistical software package will be used."
+    },
+    {
+        "name":"Comp 231 - Intro to System Programing & Computer Organization",
+        "semester":"Spring 2023",
+        "tag":"Systems",
+        "description":"A bottom-up exploration of the interaction between computer hardware and software. Topics begin with an introduction to digital logic, and continue through elementary processor design, to assembly language, machine data representation, and computer arithmetic. Other topics in contemporary computer architecture such as multicore processors and GPGPUs may be discussed as time allows. Projects include hardware and simulated digital circuits as well as programs in assembly language."
+    },
+    {
+        "name":"Comp 172 - Discrete Structures for Computer Science",
+        "semester":"Spring 2023",
+        "tag":"Theory/Math",
+        "description":"An introduction to and survey of the mathematics used in computer science including functions, relations, sets, counting, logic, Boolean algebra, proof techniques, induction, recursion, computational complexity, and computability. Other topics may be included as time permits."
+    },
+    {
+        "name":"Comp 241 - CS III:Data Structre/Algorithms",
+        "semester":"Fall 2022",
+        "tag":"Basics",
+        "description":"An introduction to the fundamental concepts of data structures and the algorithms that arise from them, using the object-oriented design paradigm. Data structures covered include stacks, queues, linked lists, hash tables, trees, and graphs. Other topics include an introduction to iterative and recursive algorithmic strategies and basic algorithm analysis."
+    },
+    {
+        "name":"Comp 142 - CS II:Object Oriented Programing",
+        "semester":"Spring 2022",
+        "tag":"Basics",
+        "description":"An introduction to the fundamental concepts and practices of object-oriented programming. The object-oriented programming paradigm is introduced, with a focus on the definition and use of classes as a basis for fundamental object-oriented program design. Other topics include an overview of programming language principles, simple analysis of algorithms, basic searching and sorting techniques, and an introduction to software engineering issues."
+    },
+    {
+        "name":"Comp 141 - CS I:Programming Fundamentals",
+        "semester":"Fall 2021",
+        "tag":"Basics",
+        "description":"An introduction to the fundamental concepts and practices of procedural programming. Topics include data types, control structures,functions, arrays, files, and the mechanics of running, testing, and debugging. Emphasis is placed on program design and problemsolving techniques. The course also includes an introduction to the historical and social context of computing and an overview of computer science as a discipline."
+    }
+]
