@@ -7,11 +7,13 @@
         "links": [
             {
                 "url": "rhodes-classes.html",
-                "text": "Computer Science classes I have taken at Rhodes College"
+                "text": "Computer Science classes I have taken at Rhodes College",
+                "target": "_self"
             },
             {
                 "url": "https://www.rhodes.edu/",
-                "text": "Rhodes College Website"
+                "text": "Rhodes College Website",
+                "target": "_blank"
             }            
         ],
         "image": "../assets/images/rhodes_logo_2.png"

@@ -45,7 +45,7 @@ function education() {
                     // Create a <a> element for each link
                     const linkElement = document.createElement("a");
                     linkElement.href = link.url; // Set the URL from the JSON
-                    linkElement.target = "_blank";
+                    linkElement.target = link.target;
                     linkElement.innerHTML = link.text; // Set the link text from the JSON
 
                     // Append the link to the list item
