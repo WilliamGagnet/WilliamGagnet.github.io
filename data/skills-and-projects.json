@@ -1,24 +1,38 @@
 [
     {
       "title": "Portfolio Website",
-      "description": "The elegant website you are currently looking at! A static website hosted with github and used to showcase myself and my relevant skills.",
+      "description": "The elegant website you are currently looking at! A static website hosted with GitHub and used to showcase myself and my relevant skills.",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "link": "https://github.com/WilliamGagnet/WilliamGagnet.github.io",
-      "image": "../assets/images/cat_is_standing_in_colorful_lights_building_background_hd_cat.jpg"
+      "image": "../assets/images/WilliamGagnetGitHubioPic.png"
     },
     {
       "title": "Checkpoint",
-      "description": "A beautiful website to be presented at the elustrious 2025 Rhodes symposium. Its primary use to facilitate the reservation of school equipment. Collaborators: AJ, Son, Dimash, Enkhee, Jules.",
+      "description": "A beautiful website to be presented at the 2025 Rhodes symposium. Its primary use to facilitate the reservation of school equipment. Collaborators: AJ, Son, Dimash, Enkhee, Jules.",
       "technologies": ["HTML", "CSS", "JavaScript", "Python", "Flask"],
       "link": "https://github.com/Rhodes-CS-comp486/checkpoint-web",
-      "image": "../assets/images/images.jpg"
+      "image": "../assets/images/checkpoint_web_screenshot.png"
+    },
+    {
+      "title": "VR Casino",
+      "description": "A virtual reality casino made using Unity XR. Put it all on black! Collaborators: Mohid, Crosby, Umer.",
+      "technologies": ["Unity", "C#", "XR"],
+      "link": "https://github.com/mohid-tanveer/VRCasino",
+      "image": "../assets/images/eating-cat-suspicious.png"
     },
     {
       "title": "Blackjack",
       "description": "Play blackjack in the terminal/cmd. Do you hit on 17?",
       "technologies": ["Python"],
       "link": "https://github.com/WilliamGagnet/blackjack",
-      "image": "../assets/images/eating-cat-suspicious.png"
+      "image": "../assets/images/blackjack_square.png"
+    },
+    {
+      "title": "Bloodborne Hangman",
+      "description": "Play hangman in the terminal/cmd. Features a Bloodborne inspired set of words! Fear the old blood!",
+      "technologies": ["Python"],
+      "image": "../assets/images/BloodborneHangman.png",
+      "link": "https://github.com/WilliamGagnet/BloodborneHangman"
     }
   ]
   
