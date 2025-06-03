@@ -140,7 +140,31 @@ function skillsAndProjects() {
         .then(data => {
             const container = document.getElementById("main");
 
-            data.forEach(project => {
+            // --- Render the Skills section in one card ---
+            const skillsCard = document.createElement("div");
+            skillsCard.classList.add("main-section", "no-image");
+
+            const skillsDetails = document.createElement("div");
+            skillsDetails.classList.add("card-details");
+
+            const skillSections = data.skills;
+            Object.keys(skillSections).forEach(key => {
+                const section = skillSections[key];
+                
+                const title = document.createElement("h1");
+                title.textContent = section.title;
+                skillsDetails.appendChild(title);
+
+                const paragraph = document.createElement("p");
+                paragraph.textContent = section.text;
+                skillsDetails.appendChild(paragraph);
+            });
+
+            skillsCard.appendChild(skillsDetails);
+            container.appendChild(skillsCard);
+
+            // --- Render the Project cards as usual ---
+            data.projects.forEach(project => {
                 const card = document.createElement("div");
                 card.classList.add("main-section");
 
@@ -151,25 +175,20 @@ function skillsAndProjects() {
                 const projectDetails = document.createElement("div");
                 projectDetails.classList.add("card-details");
 
-                // Title
                 const title = document.createElement("h1");
                 title.textContent = project.title;
                 projectDetails.appendChild(title);
 
-                // Create a <ul> for the description, technologies, and link
                 const detailsList = document.createElement("ul");
 
-                // Description
                 const descriptionItem = document.createElement("li");
                 descriptionItem.textContent = project.description;
                 detailsList.appendChild(descriptionItem);
 
-                // Technologies
                 const technologiesItem = document.createElement("li");
                 technologiesItem.textContent = "Technologies: " + project.technologies.join(", ");
                 detailsList.appendChild(technologiesItem);
 
-                // Link
                 if (project.link) {
                     const linkItem = document.createElement("li");
                     const link = document.createElement("a");
@@ -180,9 +199,7 @@ function skillsAndProjects() {
                     detailsList.appendChild(linkItem);
                 }
 
-                // Append the <ul> to projectDetails
                 projectDetails.appendChild(detailsList);
-
                 card.appendChild(projectDetails);
                 container.appendChild(card);
             });

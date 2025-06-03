@@ -79,11 +79,17 @@ main p {
     object-fit: cover;
 }
 
+/* Default card behavior; has image*/
 .card-details {
     width: 66%; /* Takes up 66% of the card */
     padding-left: 15px;
     text-align: left;
     margin: 0;
+}
+
+/* Override for cards without images */
+.main-section.no-image .card-details {
+  width: 100%;
 }
 
 .card-details ul li {

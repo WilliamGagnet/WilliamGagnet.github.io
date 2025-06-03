@@ -1,4 +1,31 @@
-[
+{
+  "skills": {
+  "section 1": {
+    "title": "Skills and Experience",
+    "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam incidunt natus ex. Voluptate officiis delectus rerum culpa illo sapiente dolor veniam, sunt maiores sequi laudantium asperiores vero saepe quo non!"
+  },
+  "section 2": {
+    "title": "🐍 Python and Popular Libraries",
+    "text": "Python’s been my go-to language for years now. I’ve used it for everything from building small command-line games to writing machine learning models with libraries like scikit-learn. For data analysis, I’m comfortable working with pandas and NumPy, and I’ve used them for both personal exploration and academic work."
+  },
+  "section 3": {
+    "title": "🎮 Unity and C#",
+    "text": "text"
+  },
+  "section 4": {
+    "title": "🌐 Web Dev and HTML, CSS, and JavaScript",
+    "text": "text"
+  },
+  "section 5": {
+    "title": "🗃 Databases and SQL",
+    "text": "text"
+  },
+  "section 6": {
+    "title": "🛠 Dev tools and other skills",
+    "text": "text"
+  }
+},
+  "projects": [
     {
       "title": "Portfolio Website",
       "description": "The elegant website you are currently looking at! A static website hosted with GitHub and used to showcase myself and my relevant skills.",
@@ -35,4 +62,4 @@
       "link": "https://github.com/WilliamGagnet/BloodborneHangman"
     }
   ]
-  
+}
