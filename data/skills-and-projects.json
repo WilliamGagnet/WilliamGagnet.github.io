@@ -2,27 +2,27 @@
   "skills": {
   "section 1": {
     "title": "Skills and Experience",
-    "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam incidunt natus ex. Voluptate officiis delectus rerum culpa illo sapiente dolor veniam, sunt maiores sequi laudantium asperiores vero saepe quo non!"
+    "text": "Over the past few years, I’ve worked with a wide range of tools, languages, and frameworks both through academic work and personal projects. Below are some of the core skills I’ve built up and the projects or experiences that helped shape them. Each one reflects time spent learning, tinkering, debugging, and actually building things, the best way I know to grow as a developer!"
   },
   "section 2": {
     "title": "🐍 Python and Popular Libraries",
-    "text": "Python’s been my go-to language for years now. I’ve used it for everything from building small command-line games to writing machine learning models with libraries like scikit-learn. For data analysis, I’m comfortable working with pandas and NumPy, and I’ve used them for both personal exploration and academic work."
+    "text": "Python’s been my go-to language for years now. I’ve used it for everything from building small command-line games to writing machine learning models with libraries like scikit-learn. For data analysis, I’m comfortable working with pandas and NumPy, and I’ve used them for both personal projects and academic work."
   },
   "section 3": {
-    "title": "🎮 Unity and C#",
-    "text": "text"
+    "title": "🎮 Game Dev and Unity",
+    "text": "I’ve been using Unity as my entry point into game development, mostly through personal and collaborative projects. One of my favorite projects so far has been a VR casino made with Unity XR, where I got to work on gameplay interactions, scene setup, and complex C# scripts. Game development hits the sweet spot for me, a mix of programming, design, and creativity. I like that Unity lets me prototype weird ideas quickly, even if half of them break in unexpected ways!"
   },
   "section 4": {
-    "title": "🌐 Web Dev and HTML, CSS, and JavaScript",
-    "text": "text"
+    "title": "🌐 Web Dev and Frontend",
+    "text": "When it comes to web development, I'm largely self-taught. I’m comfortable working with core web technologies like HTML, CSS, and JavaScript, as well as frameworks like Flask. One of my most involved projects is Checkpoint-Web, an equipment reservation system built for the Rhodes College Computer Science department. It uses Flask for routing and template rendering, and interfaces with a FastAPI backend and a PostgreSQL database to handle reservations, user accounts, admin roles, and more. This portfolio site you're reading right now is another example of my approach hand-coded from scratch, styled with CSS, and powered by JavaScript that dynamically loads project and skills data from JSON files!"
   },
   "section 5": {
-    "title": "🗃 Databases and SQL",
-    "text": "text"
+    "title": "💾 Databases and Backend",
+    "text": "I’ve worked with relational databases like PostgreSQL and SQLite in both academic and personal settings. I took a full databases course where I learned the fundamentals of relational algebra, schema design, ER diagrams, and complex SQL queries. I’m comfortable working directly with raw SQL when needed, but I’ve also used ORMs like SQLAlchemy in Python-based projects to help manage models and queries more cleanly. In some of my work, including Checkpoint-Web, I’ve interacted with a FastAPI backend that served data to a Flask frontend, and I’ve used Swagger UI to explore and test RESTful API endpoints."
   },
   "section 6": {
-    "title": "🛠 Dev tools and other skills",
-    "text": "text"
+    "title": "🧰 Dev tools and Other Skills",
+    "text": "I'm comfortable with the tools that make development smoother, faster, and more maintainable. I use Git and GitHub for version control and code hosting, and I’ve taken a full course that emphasized version control workflows including branching, merging, pull requests, and resolving conflicts cleanly. I do most of my work in VS Code, but I’ve also used JetBrains IDEs like PyCharm and IntelliJ for more specialized tasks. I'm comfortable with the command line, whether that’s cmd, PowerShell, or bash on Linux, and I’ve had some exposure to Docker for containerizing dev environments. I’m also very comfortable using generative AI tools like Copilot and ChatGPT to assist with brainstorming, debugging, and even code scaffolding when I need to move fast or get unstuck."
   }
 },
   "projects": [
