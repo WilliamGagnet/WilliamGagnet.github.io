@@ -7,3 +7,4 @@
 4. ~~do the resume page~~
 5. add more projects to the projects page
 6. make the README.md pretty
+7. make mobile friendly💀
