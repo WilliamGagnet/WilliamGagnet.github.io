@@ -213,9 +213,6 @@ if (window.location.pathname.includes('about-me.html')) {
 else if (window.location.pathname.includes('education.html')) {
     education()
 }
-else if (window.location.pathname.includes('resume.html')) {
-    pass
-}
 else if (window.location.pathname.includes('rhodes-classes.html')) {
     rhodesClasses()
 }
