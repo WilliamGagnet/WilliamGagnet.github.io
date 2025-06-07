@@ -1,0 +1,25 @@
+{
+  "intro": {
+    "greeting": "Hey, I'm William 👋",
+    "subtext": "subtext",
+    "image": "../assets/images/eating-cat-suspicious.png"
+  },
+  "sections": [
+    {
+      "title": "My Journey",
+      "text": "text"
+    },
+    {
+      "title": "Dev Aspirations",
+      "text": "text"
+    },
+    {
+      "title": "Interests and Hobbies",
+      "text": "text"
+    },
+    {
+      "title": "Let's Connect",
+      "text": "text"
+    }
+  ]
+}

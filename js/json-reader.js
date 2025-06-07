@@ -1,3 +1,54 @@
+function aboutMe() {
+    fetch('../data/about-me.json')
+        .then(response => response.json())
+        .then(data => {
+            const container = document.getElementById("main");
+
+            // --- INTRO SECTION ---
+            const introCard = document.createElement("div");
+            introCard.classList.add("main-section");
+
+            const introImage = document.createElement("img");
+            introImage.src = data.intro.image;
+            introCard.appendChild(introImage);
+
+            const introDetails = document.createElement("div");
+            introDetails.classList.add("card-details");
+
+            const greeting = document.createElement("h1");
+            greeting.textContent = data.intro.greeting;
+            introDetails.appendChild(greeting);
+
+            const subtext = document.createElement("p");
+            subtext.textContent = data.intro.subtext;
+            introDetails.appendChild(subtext);
+
+            introCard.appendChild(introDetails);
+            container.appendChild(introCard);
+
+            // --- BODY SECTIONS ---
+            data.sections.forEach(section => {
+                const sectionCard = document.createElement("div");
+                sectionCard.classList.add("main-section", "no-image");
+
+                const sectionDetails = document.createElement("div");
+                sectionDetails.classList.add("card-details");
+
+                const title = document.createElement("h1");
+                title.textContent = section.title;
+                sectionDetails.appendChild(title);
+
+                const paragraph = document.createElement("p");
+                paragraph.textContent = section.text;
+                sectionDetails.appendChild(paragraph);
+
+                sectionCard.appendChild(sectionDetails);
+                container.appendChild(sectionCard);
+            });
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+}
+
 function education() {
     fetch('../data/education.json')
         .then(response => response.json())
@@ -208,7 +259,7 @@ function skillsAndProjects() {
 }
 
 if (window.location.pathname.includes('about-me.html')) {
-    pass
+    aboutMe()
 }
 else if (window.location.pathname.includes('education.html')) {
     education()
