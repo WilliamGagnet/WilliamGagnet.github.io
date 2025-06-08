@@ -20,7 +20,7 @@ function aboutMe() {
             introDetails.appendChild(greeting);
 
             const subtext = document.createElement("p");
-            subtext.textContent = data.intro.subtext;
+            subtext.innerHTML = data.intro.subtext; // Use innerHTML here
             introDetails.appendChild(subtext);
 
             introCard.appendChild(introDetails);
@@ -39,8 +39,28 @@ function aboutMe() {
                 sectionDetails.appendChild(title);
 
                 const paragraph = document.createElement("p");
-                paragraph.textContent = section.text;
+                paragraph.innerHTML = section.text; // Use innerHTML here
                 sectionDetails.appendChild(paragraph);
+
+                if ('links' in section) {
+                    const linksList = document.createElement("ul");
+
+                    section.links.forEach(link => {
+                        const listItem = document.createElement("li");
+
+                        // Create a <a> element for each link
+                        const linkElement = document.createElement("a");
+                        linkElement.href = link.url; // Set the URL from the JSON
+                        linkElement.target = link.target;
+                        linkElement.innerHTML = link.text; // Set the link text from the JSON
+
+                        // Append the link to the list item
+                        listItem.appendChild(linkElement);
+
+                        linksList.appendChild(listItem);
+                    });
+                    sectionDetails.appendChild(linksList);
+                }
 
                 sectionCard.appendChild(sectionDetails);
                 container.appendChild(sectionCard);

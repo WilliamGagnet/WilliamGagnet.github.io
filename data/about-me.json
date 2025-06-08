@@ -1,25 +1,42 @@
 {
   "intro": {
     "greeting": "Hey, I'm William 👋",
-    "subtext": "subtext",
+    "subtext": "Computer Science grad exploring software dev, game dev, and whatever comes next!",
     "image": "../assets/images/eating-cat-suspicious.png"
   },
   "sections": [
     {
-      "title": "My Journey",
-      "text": "text"
+      "title": "🌱 My Journey",
+      "text": "I’m from New Orleans, Louisiana, and I got into computer science during my first year of college. I started out with an intro Python course and quickly realized how much I enjoyed building things with code. Since then, I’ve been exploring different areas of software development — from web dev to game dev — learning as I go and trying to figure out where I want to land. I’m still carving out my path, but I know I want to create, build, and grow my skills with every project."
     },
     {
-      "title": "Dev Aspirations",
-      "text": "text"
+      "title": "🎯 Dev Aspirations",
+      "text": "I’m still figuring out where I want to land professionally, but I know I want to keep building things. I’d love to work at a company doing software development, backend work, or database systems — anywhere I can grow, contribute, and keep learning. Outside of work, game development is a huge passion of mine. I’ve been slowly chipping away at personal projects, and one of my goals is to create a full original game with my own art, music, and story. Someday, I’d even love to build a custom engine from scratch, just to understand how all the pieces fit together and how everything works under the hood. Right now, I’m open to exploring new areas, picking up new tools, and seeing where this path takes me."
     },
     {
-      "title": "Interests and Hobbies",
-      "text": "text"
+      "title": "🏋️‍♂️ Interests and Hobbies",
+      "text": "In my free time, you can usually find me lifting weights, playing whichever game has caught my attention, or trying to turn my weird ideas into games that are actually fun to play. Game dev has become a real passion of mine, inspired by the small — or even solo — teams behind games like <i>Hollow Knight</i>, <i>Stardew Valley</i>, <i>Touhou</i>, <i>Animal Well</i>, <i>Undertale</i>, and many more. To support that dream, I’ve started learning art and plan to try my hand at music composition in the future... though I suck at both right now 😅. I’m no hardware engineer, but I’ve built a few PCs and still love keeping up with the latest and greatest tech drops each year — even if some of them would cost me a kidney to afford. When my friends are around, I’ll always take quality time over anything — hanging out, chatting about the latest seasonal anime, sharing food and drink, and cooking up wacky <i>One Piece</i> theories together!"
     },
     {
-      "title": "Let's Connect",
-      "text": "text"
+      "title": "📬 Let's Connect",
+      "text": "Want to chat about games, tech, or other cool stuff?",
+      "links": [
+        {
+            "url": "https://github.com/WilliamGagnet",
+            "text": "<i class=\"fa-brands fa-github\"></i> Check out my GitHub!",
+            "target": "_blank"
+        },
+        {
+            "url": "https://www.linkedin.com/in/william-gagnet-6b3944302/",
+            "text": "<i class=\"fa-brands fa-linkedin\"></i> Check out my LinkedIn!",
+            "target": "_blank"
+        },
+        {
+            "url": "mailto:wgagnet1@gmail.com",
+            "text": "<i class=\"fa-solid fa-envelope\"></i> Send me an email!",
+            "target": "_blank"
+        }
+      ]
     }
   ]
 }
