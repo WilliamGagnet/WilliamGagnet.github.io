@@ -45,7 +45,7 @@
       "description": "A Unity-powered VR experience simulating a small-scale casino environment with interactive games. Users can explore the space in VR and play functioning versions of roulette, slot machines, and bingo. Built with first-person VR controls, the project focused on creating a navigable 3D environment and implementing basic game logic for a few core casino experiences. While features like ambient sound and physics-based chips were out of scope, the final result offered a functional and immersive single-player casino prototype. Collaborators: Mohid Tanveer, Crosby McMahon, Umer Tahir.",
       "technologies": ["Unity", "C#", "XR"],
       "link": "https://github.com/mohid-tanveer/VRCasino",
-      "image": "../assets/images/eating-cat-suspicious.png"
+      "image": "../assets/images/VR-Casino-screenshot.png"
     },
     {
       "title": "Hit Game Predictor (Machine Learning Final Project)",
@@ -59,7 +59,7 @@
       "description": "A Python program that uses Turtle Graphics to draw the Sierpinski Triangle fractal through a randomized point-plotting algorithm. The program starts with a large triangle defined by three points, then repeatedly generates midpoints between a starting point and one of the triangle’s vertices to plot the fractal pattern. Includes geometric checks to ensure points are drawn within bounds. A creative exploration of recursion-adjacent fractal behavior and 2D graphics using pure Python.",
       "technologies": ["Python"],
       "link": "https://github.com/WilliamGagnet/SierpinskiTriangle/tree/main",
-      "image": "../assets/images/eating-cat-suspicious.png"
+      "image": "../assets/images/sierpinski-triangle-screenshot.png"
 
     },
     {
