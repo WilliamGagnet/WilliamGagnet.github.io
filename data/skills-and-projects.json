@@ -28,35 +28,50 @@
   "projects": [
     {
       "title": "Portfolio Website",
-      "description": "The elegant website you are currently looking at! A static website hosted with GitHub and used to showcase myself and my relevant skills.",
+      "description": "A static website hosted with GitHub Pages and used to showcase my relevant skills, education,  resume, and personal info. Website data is separated into a local JSON file and injected into the page via JavaScript, making the site easier to update and maintain without touching the core layout. ",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "link": "https://github.com/WilliamGagnet/WilliamGagnet.github.io",
       "image": "../assets/images/WilliamGagnetGitHubioPic.png"
     },
     {
-      "title": "Checkpoint",
-      "description": "A beautiful website to be presented at the 2025 Rhodes symposium. Its primary use to facilitate the reservation of school equipment. Collaborators: AJ, Son, Dimash, Enkhee, Jules.",
+      "title": "Checkpoint-Web",
+      "description": "A Flask-based web app designed for managing equipment reservations in the Rhodes College CS department. Built with Flask and PostgreSQL, it allows students to check out and return equipment, view their borrowing history, and receive automated notifications. Admins can manage inventory, user roles, and generate usage reports. Designed to streamline accountability and access to shared tech resources. Collaborators: AJ Kovach, Son Nguyen, Dimash Zhanbyrshy, Enkhee Gantulga, Jules Hall.",
       "technologies": ["HTML", "CSS", "JavaScript", "Python", "Flask"],
       "link": "https://github.com/Rhodes-CS-comp486/checkpoint-web",
-      "image": "../assets/images/checkpoint_web_screenshot.png"
+      "image": "../assets/images/equipment_dashboard.png"
     },
     {
       "title": "VR Casino",
-      "description": "A virtual reality casino made using Unity XR. Put it all on black! Collaborators: Mohid, Crosby, Umer.",
+      "description": "A Unity-powered VR experience simulating a small-scale casino environment with interactive games. Users can explore the space in VR and play functioning versions of roulette, slot machines, and bingo. Built with first-person VR controls, the project focused on creating a navigable 3D environment and implementing basic game logic for a few core casino experiences. While features like ambient sound and physics-based chips were out of scope, the final result offered a functional and immersive single-player casino prototype. Collaborators: Mohid Tanveer, Crosby McMahon, Umer Tahir.",
       "technologies": ["Unity", "C#", "XR"],
       "link": "https://github.com/mohid-tanveer/VRCasino",
       "image": "../assets/images/eating-cat-suspicious.png"
     },
     {
+      "title": "Hit Game Predictor (Machine Learning Final Project)",
+      "description": "A machine learning classifier that predicts whether a video game will sell over one million copies based on metadata. Built and evaluated both logistic regression and decision tree models using scikit-learn, with feature engineering and exploratory analysis handled via pandas and NumPy. The project involved one-hot encoding, data cleaning, class balancing, and performance evaluation using precision, recall, F1-score, and ROC-AUC. Demonstrates practical end-to-end ML pipeline development and model comparison.",
+      "technologies": ["Python", "scikit-learn", "pandas", "NumPy"],
+      "link": "https://github.com/WilliamGagnet/ml-final-project/tree/master",
+      "image": "../assets/images/machine-learning-final-project.png"
+    },
+    {
+      "title": "Sierpinski Triangle Turtle",
+      "description": "A Python program that uses Turtle Graphics to draw the Sierpinski Triangle fractal through a randomized point-plotting algorithm. The program starts with a large triangle defined by three points, then repeatedly generates midpoints between a starting point and one of the triangle’s vertices to plot the fractal pattern. Includes geometric checks to ensure points are drawn within bounds. A creative exploration of recursion-adjacent fractal behavior and 2D graphics using pure Python.",
+      "technologies": ["Python"],
+      "link": "https://github.com/WilliamGagnet/SierpinskiTriangle/tree/main",
+      "image": "../assets/images/eating-cat-suspicious.png"
+
+    },
+    {
       "title": "Blackjack",
-      "description": "Play blackjack in the terminal/cmd. Do you hit on 17?",
+      "description": "A terminal-based Blackjack game built in Python using object-oriented programming principles. Features include deck shuffling, variable number of decks, variable number of player, hit/stand logic, automated dealer behavior, and score tracking. Created for a data analysis class and polished with the help of GitHub Copilot for certain features, this project demonstrates practical OOP design in a simple game environment.",
       "technologies": ["Python"],
       "link": "https://github.com/WilliamGagnet/blackjack",
       "image": "../assets/images/blackjack_square.png"
     },
     {
       "title": "Bloodborne Hangman",
-      "description": "Play hangman in the terminal/cmd. Features a Bloodborne inspired set of words! Fear the old blood!",
+      "description": "A classic Hangman game playable entirely in the terminal. Developed in Python with a focus on control flow, string manipulation, and user input handling. Features a Bloodborne inspired set of words!",
       "technologies": ["Python"],
       "image": "../assets/images/BloodborneHangman.png",
       "link": "https://github.com/WilliamGagnet/BloodborneHangman"
