@@ -19,21 +19,21 @@
     },
     {
       "title": "📬 Let's Connect",
-      "text": "Want to chat about games, tech, or other cool stuff?",
+      "text": "I’m always open to chatting about tech, creative projects, games, or whatever you’re passionate about!",
       "links": [
         {
             "url": "https://github.com/WilliamGagnet",
-            "text": "<i class=\"fa-brands fa-github\"></i> Check out my GitHub!",
+            "text": "<i class=\"fa-brands fa-github\"></i> GitHub",
             "target": "_blank"
         },
         {
             "url": "https://www.linkedin.com/in/william-gagnet-6b3944302/",
-            "text": "<i class=\"fa-brands fa-linkedin\"></i> Check out my LinkedIn!",
+            "text": "<i class=\"fa-brands fa-linkedin\"></i> LinkedIn",
             "target": "_blank"
         },
         {
             "url": "mailto:wgagnet1@gmail.com",
-            "text": "<i class=\"fa-solid fa-envelope\"></i> Send me an email! 👉wgagnet1@gmail.com👈",
+            "text": "<i class=\"fa-solid fa-envelope\"></i> wgagnet1@gmail.com",
             "target": "_blank"
         }
       ]
