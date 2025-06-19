@@ -221,13 +221,13 @@ function skillsAndProjects() {
             const skillSections = data.skills;
             Object.keys(skillSections).forEach(key => {
                 const section = skillSections[key];
-                
+
                 const title = document.createElement("h1");
                 title.textContent = section.title;
                 skillsDetails.appendChild(title);
 
                 const paragraph = document.createElement("p");
-                paragraph.textContent = section.text;
+                paragraph.innerHTML = section.text.replace(/\n/g, "<br>");
                 skillsDetails.appendChild(paragraph);
             });
 
